@@ -1,0 +1,150 @@
+{
+  "merchant": "faf5ee1a-298e-45c7-beb6-b8e410493da3",
+  "products": [
+    {
+      "type": "string",
+      "enum": [
+        "pos",
+        "e-commerce",
+        "qr",
+        "account-opening",
+        "card-issuing"
+      ]
+    }
+  ],
+  "due_diligence": "string",
+  "company": {
+    "trade_name": "Paynetics",
+    "legal_name": "Paynetics AD",
+    "uic": "123567",
+    "incorporation_date": "2022-01-01",
+    "website": "https://paynetics.digital",
+    "phone": "+35900000000",
+    "mobile_phone": "+35900000000",
+    "country": "BG",
+    "county": "Sofia Grad",
+    "city": "Sofia",
+    "zip": "1407",
+    "address1": "James Bouchier 76A",
+    "address2": "Floor 2",
+    "contact_email": "john.doe@paynetics.digital",
+    "correspondence_address": "James Bouchier 76A",
+    "description_of_activity": "Acquiring, Issuing etc.",
+    "address_of_shop": "James Bouchier 76A",
+    "mcc": "5999",
+    "legal_form": "sole-trader",
+    "legal_form_description": "The sutrcte of the company is ... ",
+    "business_activity": "second-hand-store",
+    "country_of_incorporation": "BG",
+    "vat_registration": "12345678BG",
+    "is_sie": false,
+    "company_members": [
+      {
+        "first_name": "John",
+        "last_name": "Doe",
+        "mobile_phone": "+359000000000",
+        "phone": "+359000000000",
+        "legal_name": "Paynetics AD",
+        "uic": "123456",
+        "country": "BG",
+        "country_of_residence": "BG",
+        "zip": "1407",
+        "city": "Sofia",
+        "address1": "James Bouchier 76A",
+        "address2": "Floor 2",
+        "county": "Sofia Grad",
+        "ownership": true,
+        "ownership_percentage": 10,
+        "type": [
+          {
+            "type": "string",
+            "enum": [
+              "ubo",
+              "ceo",
+              "representative",
+              "proxy",
+              "legal-entity",
+              "officer"
+            ]
+          }
+        ],
+        "unique_identifier": "123456",
+        "user": "",
+        "legal_form": "sole-trader",
+        "place_of_birth": "BG",
+        "pep_declaration": true,
+        "pep_related_declaration": true,
+        "is_sip": true,
+        "birthday": "1992-03-28",
+        "nationality": "BG",
+        "contact_email": "John Doe",
+        "documents": [
+          {
+            "file": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNksP3/HwADvgI9/iYBsgAAAABJRU5ErkJggg==",
+            "file_type": "pdf",
+            "document_type": "passport"
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "file": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNksP3/HwADvgI9/iYBsgAAAABJRU5ErkJggg==",
+        "file_type": "pdf",
+        "document_type": "passport"
+      }
+    ]
+  },
+  "acquiring": {
+    "pos": {
+      "fee_group": "default",
+      "projected_monthly_value": "100",
+      "descriptor": "John Doe"
+    },
+    "ecommerce": {
+      "register3ds": "boolean",
+      "supported_authorization_types": [
+        {
+          "type": "string",
+          "enum": [
+            "moto",
+            "recurring",
+            "pay-by-link",
+            "oct"
+          ]
+        }
+      ],
+      "fee_group": "string",
+      "projected_monthly_value": "number",
+      "descriptor": "string"
+    }
+  },
+  "payout_details": [
+    {
+      "amount": "1",
+      "currency": "BGN",
+      "iban": "BG18RZBB91550123456789",
+      "sort_code": "123456",
+      "account_number": "12345678",
+      "period": "daily",
+      "delay": "2"
+    }
+  ],
+  "questionnaire": {
+    "is_online": false,
+    "has_offshore_clients": false,
+    "make_business_with_san": false,
+    "has_kyc_procedure": false,
+    "has_kyc_procedure_description": false,
+    "require_additional_licenses": false,
+    "maintains_accounts_on_behalf_of_clients": false,
+    "perform_transactions_on_behalf_of_clients": false,
+    "is_off_shore": false,
+    "purpose_of_usage": false,
+    "source_of_funds": "dividends",
+    "months_of_doing_business": 12,
+    "projected_monthly_volume": 10000
+  },
+  "ip_address": "127.0.0.1",
+  "fingerprint": "any string"
+}

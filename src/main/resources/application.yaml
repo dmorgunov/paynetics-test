@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: "PayneticsClient"
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+    urls:
+      paynetics: "https://api.paynetics.io"
+
+
+logging:
+  level:
+    dm.dev.client: DEBUG
+
